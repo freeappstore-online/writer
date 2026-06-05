@@ -1,0 +1,14 @@
+{
+  "id": "writer",
+  "name": "Writer",
+  "description": "Draft emails, blog posts, social media content, and replies. Powered by the Writing Assistant agent from FreeAgentStore.",
+  "category": "Productivity",
+  "usesAgents": [
+    {
+      "agent": "writing-assistant",
+      "from": "freeagentstore.online",
+      "type": "built-in-ai",
+      "integration": "sdk"
+    }
+  ]
+}
